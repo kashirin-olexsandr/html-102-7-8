@@ -166,3 +166,55 @@ h6 {
   border-radius: 5px;
   border: 1px solid #fff;
 }
+
+/* Cases Section */
+.cases {
+}
+.container {
+}
+.cases-container {
+margin: 80px auto;
+}
+.cases-subtitle {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 175px;
+
+  color: #333333;
+}
+.cases-title {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+
+  margin: 0 auto;
+  width: 275px;
+  color: #333333;
+
+  margin-bottom: 24px;
+}
+
+.cases-text {
+  line-height: 28px;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: 24px;
+  width: 645px;
+  color: #333333;
+}
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 20px;
+  padding: 0 28px;
+}
+.cases-item {
+}
