@@ -4,19 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html"><span>Finance</span>Ledger</a>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="./index.html">
+          <span class="logo-accent">Finance</span>Ledger
+        </a>
+        <nav class="nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#home">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#cases">Cases</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#blog">Blog</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#about">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section>
@@ -50,33 +82,34 @@
         <img src="./images/desktop.jpg" alt="desktop" />
       </section>
       <section></section>
-<section class="team-section">
-				<p>Who we are</p>
-				<h2 class="team-title">Our Professional Team</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-					sapiente!
-				</p>
-				<ul class="team-list">
-					<li>
-						<img src="./images/John-Doe.jpg" alt="Picture of man in a suit" />
-						<h3 class="team-name">John Doe</h3>
-						<p class="team-ocupation">President</p>
-					</li>
-					<li>
-						<img src="./images/Jane-Doe.jpg" alt="Picture of young woman" />
-						<h3 class="team-name">Jane Doe</h3>
-						<p class="team-ocupation">Vice President</p>
-					</li>
-					<li>
-						<img
-							src="./images/Steve-Smith.jpg"
-							alt="Picture of man with laptop" />
-						<h3 class="team-name">Steve Smith</h3>
-						<p class="team-ocupation">Marketing Head</p>
-					</li>
-				</ul>
-			</section>
+      <section class="team-section">
+        <p>Who we are</p>
+        <h2 class="team-title">Our Professional Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul class="team-list">
+          <li>
+            <img src="./images/John-Doe.jpg" alt="Picture of man in a suit" />
+            <h3 class="team-name">John Doe</h3>
+            <p class="team-ocupation">President</p>
+          </li>
+          <li>
+            <img src="./images/Jane-Doe.jpg" alt="Picture of young woman" />
+            <h3 class="team-name">Jane Doe</h3>
+            <p class="team-ocupation">Vice President</p>
+          </li>
+          <li>
+            <img
+              src="./images/Steve-Smith.jpg"
+              alt="Picture of man with laptop"
+            />
+            <h3 class="team-name">Steve Smith</h3>
+            <p class="team-ocupation">Marketing Head</p>
+          </li>
+        </ul>
+      </section>
       <!--section Request Callback-->
       <section>
         <div class="container">
